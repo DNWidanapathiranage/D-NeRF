@@ -1,15 +1,15 @@
 expname = mutant
 basedir = ./logs
-datadir = ./data/mutant
+datadir = kaggle/input/jellyfish/jellyfish/color
 dataset_type = blender
 
 nerf_type = direct_temporal
 no_batching = True
 not_zero_canonical = False
-use_viewdirs = True
+use_viewdirs = False
 
-use_viewdirs = True
-white_bkgd = True
+use_viewdirs = False
+white_bkgd = False
 lrate_decay = 500
 
 N_iter = 800000
